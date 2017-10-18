@@ -31,7 +31,7 @@ public class VectorHelper {
         Vecteur.set(cpt+1,element);
     }
     }
-   
+   /* Inverser les elements d'un vecteur */
    protected void Inverser(ArrayList<Integer> Vecteur){
        
        for (int i=0;i<Vecteur.size()/2;i++){
