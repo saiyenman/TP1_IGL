@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 public class VectorHelper {
     
-    
+  // Fonction de trie des elements du vecteur  
    protected void Trier(ArrayList<Integer> Vecteur){ 
    int cpt;
    int element;
@@ -46,7 +46,7 @@ public class VectorHelper {
    }
        return Vecteur3;
 }
-    
+    //Inverser les elements du vecteur
    protected void Inverser(ArrayList<Integer> Vecteur){
        
        for (int i=0;i<Vecteur.size()/2;i++){
@@ -55,7 +55,7 @@ public class VectorHelper {
            Vecteur.set(Vecteur.size()-i-1,temp);
        }
    }
-   
+   // Donner le max et le min dans le vecteur
    protected void MaxMin(ArrayList<Integer> Vecteur){
        int min=Vecteur.get(0),max=Vecteur.get(0);
        
