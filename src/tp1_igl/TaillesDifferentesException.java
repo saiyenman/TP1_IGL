@@ -12,6 +12,6 @@ package tp1_igl;
 public class TaillesDifferentesException extends Exception{
     
     public TaillesDifferentesException(){
-        System.out.println("Exception generee");
+        System.out.println("Exception gejjjjjneree");
     }
 }
