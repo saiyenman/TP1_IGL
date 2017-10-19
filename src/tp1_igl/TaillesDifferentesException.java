@@ -12,6 +12,8 @@ package tp1_igl;
 public class TaillesDifferentesException extends Exception{
     
     public TaillesDifferentesException(){
-        System.out.println("Exception generee");
+        yahiaslimani-exception-update
+        System.out.println("Les deux vecteurs ont des tailles différentes");
+        
     }
 }
