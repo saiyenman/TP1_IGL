@@ -48,7 +48,7 @@ public class VectorHelper {
            if (min > Vecteur.get(i)) min=Vecteur.get(i);
            if (max<Vecteur.get(i)) max=Vecteur.get(i);
        }
-      
+      System.out//
        
    }
    
